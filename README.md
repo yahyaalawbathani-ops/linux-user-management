@@ -4,7 +4,7 @@ A practical Ubuntu project demonstrating essential Linux user and group administ
 
 ## Project Overview
 
-This project covers the complete lifecycle of managing Linux users and groups, including creating accounts, modifying permissions, securing accounts, and safely deleting users and groups.
+This project demonstrates the complete lifecycle of Linux user and group management, including account creation, password management, group membership, account security, and safe deletion.
 
 ## Skills Practiced
 
@@ -66,63 +66,83 @@ sudo gpasswd -d student2 developers
 # Delete the group
 sudo groupdel developers
 
-# Delete the user and home directory
+# Delete the user and its home directory
 sudo deluser --remove-home student2
+```
+
+## Project Structure
+
+```text
+linux-user-management/
+├── README.md
+└── screenshots/
+    ├── 01-create-user.png
+    ├── 02-check-user.png
+    ├── 03-switch-user.png
+    ├── 04-change-password.png
+    ├── 05-create-group.png
+    ├── 06-add-user-to-group.png
+    ├── 07-user-information.png
+    ├── 08-lock-unlock-user.png
+    ├── 09-password-aging.png
+    ├── 10-remove-user-from-group.png
+    ├── 11-delete-group.png
+    └── 12-delete-user.png
 ```
 
 ## Screenshots
 
 ### 1. Create a User
 
-![Create User](screenshots/01-create-user.png)
+![Create User](./screenshots/01-create-user.png)
 
 ### 2. Verify User Information
 
-![Verify User](screenshots/02-check-user.png)
+![Verify User](./screenshots/02-check-user.png)
 
 ### 3. Switch Between Users
 
-![Switch User](screenshots/03-switch-user.png)
+![Switch User](./screenshots/03-switch-user.png)
 
 ### 4. Change the User Password
 
-![Change Password](screenshots/04-change-password.png)
+![Change Password](./screenshots/04-change-password.png)
 
 ### 5. Create a Group
 
-![Create Group](screenshots/05-create-group.png)
+![Create Group](./screenshots/05-create-group.png)
 
 ### 6. Add the User to the Group
 
-![Add User to Group](screenshots/06-add-user-to-group.png)
+![Add User to Group](./screenshots/06-add-user-to-group.png)
 
 ### 7. View User and Group Information
 
-![User Information](screenshots/07-user-information.png)
+![User Information](./screenshots/07-user-information.png)
 
 ### 8. Lock and Unlock the User Account
 
-![Lock and Unlock User](screenshots/08-lock-unlock-user.png)
+![Lock and Unlock User](./screenshots/08-lock-unlock-user.png)
 
 ### 9. View Password Aging Information
 
-![Password Aging](screenshots/09-password-aging.png)
+![Password Aging](./screenshots/09-password-aging.png)
 
 ### 10. Remove the User from the Group
 
-![Remove User from Group](screenshots/10-remove-user-from-group.png)
+![Remove User from Group](./screenshots/10-remove-user-from-group.png)
 
 ### 11. Delete the Group
 
-![Delete Group](screenshots/11-delete-group.png)
+![Delete Group](./screenshots/11-delete-group.png)
 
 ### 12. Delete the User
 
-![Delete User](screenshots/12-delete-user.png)
+![Delete User](./screenshots/12-delete-user.png)
 
 ## What I Learned
 
-Through this project, I learned how to create, manage, verify, secure, and delete Linux users and groups using the Ubuntu terminal. I also gained practical experience with account locking, group membership, password management, and user information commands.
+Through this project, I learned how to create, manage, verify, secure, and delete Linux users and groups using the Ubuntu terminal. I also gained practical experience with account locking, password management, group membership, and administrative Linux commands.
 
 ## Environment
 
